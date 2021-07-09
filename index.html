@@ -55,8 +55,13 @@
                     <h1>
                         <div class="display-2">Black-Belt</div>
                         <div class="display-5 text-muted">Your Coding Skill Here!</div>
-                        <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+                        <div>
+                          <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                          <a href="#pricing" class="btn btn-warning btn-lg me-2">Buy Now</a>
+                          <a href="#sidebar" class="btn btn-outline-primary btn-lg" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                            Explore more books...
+                          </a>
+                        </div>
                     </h1>
                 </div>
 
@@ -390,6 +395,7 @@
       </div>
     </section>
 
+    <!-- Modal Content -->
     <div class="modal fade" id="reg-modal" tabindex="-1" arialabelledby="modal-title" aria-hidden="true"> 
       <div class="modal-dialog">
         <div class="modal-content">
@@ -415,6 +421,20 @@
             <button type="button" class="btn btn-outline-warning">Get Updates</button>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- Offcanvas Content -->
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="sidebar-label">My other books</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
     </div>
 
